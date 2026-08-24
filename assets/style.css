@@ -43,7 +43,9 @@ body {
     height: 50px;
     padding-bottom: 20px;
     position: relative;
-        input{
+}
+
+.inputbox input{
             width: 100%;
             height: 100%;
             background-color: transparent;
@@ -52,13 +54,14 @@ body {
             font-size: 16px;
             color: rgb(0, 0, 0);
             padding: 20px 45px 20px 20px;
-            
-        }
-        i{
-            position: absolute;
-            right: 13px;
-            top: 15px
-        }
+            outline: none;
+}
+
+.inputbox i {
+    position: absolute;
+    right: 4%;
+    bottom: 40%;
+
 }
 
 input::placeholder{
@@ -73,7 +76,19 @@ input:focus {
 
 .extra {
     padding: 20px 0px 20px;
-    
+    a {
+        padding-left: 50px;
+        color: white;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: white;
+    }
+
+    a:hover{
+            color: rgb(184, 184, 184);
+        }
 }
 
 
@@ -84,7 +99,7 @@ button {
     border-radius: 40px;
     color: white;
     background-color: rgba(87, 1, 87, 0.329);
-    border: 1px solid white;
+    border: 1px solid rgba(87, 1, 87, 0.116);
     backdrop-filter: blur(30px);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
@@ -92,23 +107,20 @@ button {
 
 .register {
     padding-top: 20px;
-    font-size: 20px;     
+    font-size: 20px;
+        a{
+            padding-left: 5px;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:visited{
+            color: white;
+        }
+
+        a:hover{
+            color: rgb(184, 184, 184);
+        }
+        
 }
-
-a {
-    text-decoration: none;
-    color: white;
-    
-}
-
-
-a:hover {
-    color: rgb(202, 201, 201);
-    text-decoration: underline;
-}
-
-#forgot {
-    padding-left: 60px;
-}
-
 
